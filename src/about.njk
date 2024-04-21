@@ -14,19 +14,18 @@ layout: main.njk
 
 <div class="about-me-content">
   <h1>{{ heading }}</h1>
-  <p>Hi, I'm {{ site.author.firstName }} {{ site.author.lastName}}. I'm a novice photography and designer. This website acts as a compendium of images I've taken over the years.</p>
+  <p>Hi, I'm {{ site.author.firstName }} {{ site.author.lastName}}. This website acts as a compendium of paintings I've created and imitated over the years.</p>
   <p>This is mock text, write whatever you'd like for the about me page. Maybe add a picture or some of your recent work!</p>
   <p>You can find me around the web at the following places:</p>
 
-  <ul class="about-socials">
+  {# <ul class="about-socials">
     {% for key, value in site.socials %}
       <li><a href="{{ value }}">{{ key | title }}</a></li>
     {% endfor %}
-  </ul>
+  </ul> #}
 
   <h2 id="contact-me">Contact</h2>
-  <p>Feel free to reach out to me by email or on social media. I usually take 24-48hrs to respond. If you think my work aligns with your projects needs, I'd love to hear from you!</p>
-  
+  <p>Feel free to reach out to me by email to tell what you think about my paintings
   <form class="contact-form" onsubmit="sendMail()">
       <label for="name">What's Your Name?</label>
       <input type="text" name="name" id="name" required>
