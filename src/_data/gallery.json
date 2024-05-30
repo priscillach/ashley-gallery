@@ -52,5 +52,35 @@
         "src": "a-small-bed.jpg",
         "alt": "In the gentlest glow, a cozy bed awaits.",
         "imgDir": "/images/"
+    },
+
+    {
+        "title": "moon",
+        "date": "August 12, 2022",
+        "credit": "",
+        "linkToAuthor": "",
+        "src": "moon.jpg",
+        "alt": "The green moon",
+        "imgDir": "/images/"
+    },
+
+    {
+        "title": "firework-light",
+        "date": "August 12, 2022",
+        "credit": "",
+        "linkToAuthor": "",
+        "src": "firework-light.jpg",
+        "alt": "The firework-light",
+        "imgDir": "/images/"
+    },
+    
+    {
+        "title": "moon-river",
+        "date": "August 12, 2022",
+        "credit": "",
+        "linkToAuthor": "",
+        "src": "moon-river.jpg",
+        "alt": "The moon-river",
+        "imgDir": "/images/"
     }
 ]
